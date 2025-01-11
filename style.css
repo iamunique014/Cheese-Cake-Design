@@ -1,0 +1,77 @@
+
+body{
+    background-image: url(images/MAIN\ BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+
+/*======------------========
+        NAVBAR
+======------------========*/
+
+.header .navbar ul{
+    background: #6F4436CC;
+    border-radius: 10px;
+}
+
+.header .navbar .nav-item{
+    margin: 0 20px;
+}
+
+.header .navbar .nav-item a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #FFFFFF;
+
+}
+
+.header .navbar .nav-item:hover{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.header .navbar .nav-item:hover a{
+    color: #6F4436CC;
+}
+
+.header .navbar .container .SignUp{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#523728;
+    border: 2px solid #523728;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.header .navbar .container .SignUp:hover{
+    color:#FFFFFF;
+    background-color: #523728;
+
+}
+
+
+/*-----SMALL SCREEN-----*/
+@media (max-width: 991px) {
+    .header .navbar .container .SignUp{
+        margin-left: 15px;
+    }
+
+    .header .navbar .nav-item {
+        margin: 0;
+    }
+
+    .header .navbar ul{
+        background: none;
+    }
+
+    .header .navbar .nav-item:hover{
+        background-color: transparent;
+    }
+
+}
