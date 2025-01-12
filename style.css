@@ -3,7 +3,7 @@ body{
     background-image: url(images/MAIN\ BG.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -74,4 +74,74 @@ body{
         background-color: transparent;
     }
 
+}
+
+
+/*======------------========
+       HOME SECTION
+======------------========*/
+
+section .home-text h2{
+    color: #523728;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 82.8px;
+    font-family: inter;
+}
+
+
+section .home-text p{
+    color: #1b0b0bb7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.home-section .home-buttons .btn-getStarted{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+    background-color: #6A4028;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.home-section .home-buttons .btn-getStarted:hover{
+    
+    background-color: #523728;
+
+}
+
+.home-section .home-buttons .btn-watchDemo{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#6A4028;
+    border: 2px solid #523728;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+
+
+/*-----SMALL SCREEN-----*/
+@media (max-width: 991px) {
+    section .home-text h2{
+        color: #523728;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 42.8px;
+    }
+
+
+}
+
+/*-----SMALL SCREEN-----*/
+@media (max-width: 335px) {
+
+    .home-section .home-buttons .btn-watchDemo{
+        font-size: 14px;
+        font-weight: 600;
+    }
 }
