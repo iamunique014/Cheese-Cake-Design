@@ -145,3 +145,36 @@ section .home-text p{
         font-weight: 600;
     }
 }
+
+
+/*======------------========
+       ABOUT SECTION
+======------------========*/
+
+
+.about-section{
+    background-color: #FFF8E1;
+}
+
+.about-text h1{
+    font-family: inter;
+}
+
+.about-text p{
+    font-weight: 400;
+    color: #6A4028;
+}
+
+.about-text .btn-learnMore{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+    background-color: #6A4028;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/*======------------========
+       MENU SECTION
+======------------========*/
