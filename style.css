@@ -1,3 +1,7 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
 
 body{
     background-image: url(images/MAIN\ BG.png);
@@ -5,8 +9,6 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-
-
 
 
 /*======------------========
@@ -37,6 +39,11 @@ body{
 
 .header .navbar .nav-item:hover a{
     color: #6F4436CC;
+}
+
+.header .navbar .nav-item a:active .nav-item{
+    background-color: #FFFFFF;
+    border-radius: 10px;
 }
 
 .header .navbar .container .SignUp{
@@ -178,3 +185,105 @@ section .home-text p{
 /*======------------========
        MENU SECTION
 ======------------========*/
+.section-header{
+    font-family: inter;
+}
+
+
+.menu-section{
+    background-color: #6A4028E5;
+}
+
+.menu-section .menu-item{
+    background-color: #FFF8E1;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.menu-section .menu-item h3, .menu-section .menu-item p{
+    font-family: inter;
+    font-weight: 700;
+}
+
+.menu-section .menu-item .rating h3, i{
+    color: #523728;
+}
+
+.menu-section .menu-item .rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-section .menu-item .rating span{
+    font-weight: 700;
+    color: green;
+}
+
+.menu-section .container .btnMore, i{
+   
+    color: #FFF8E1;
+}
+
+/*======------------========
+       BLOG SECTION
+======------------========*/
+
+.blog-section{
+    background-color: #FFF8E1;;
+}
+
+.blog-section .section-header h2, 
+.blog-section .section-header p{
+    font-family: inter;
+    color: #523728;
+}
+
+.blog-section .blog-item{
+    background-color: #FFF8E1;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.blog-section .blog-item h5{
+    color: #BB6939;
+}
+
+.blog-section .blog-item{
+ color: #523728;
+}
+
+
+
+/*======------------========
+       CONTACT SECTION
+======------------========*/
+
+.contact-section{
+    background-color: #6A4028E5;
+}
+
+.contact-section .contact-left .social-icons i{
+    font-size: 25px;
+}
+
+.contact-section .contact-left .social-icons i:hover{
+    color: #FCAE36;
+}
+
+
+
+
+/*======------------========
+       CONTACT FORM SECTION
+======------------========*/
+
+.contact-section .contact-form input,
+.contact-section .contact-form textarea,
+.contact-section .contact-form button{
+    border-radius: 30px;
+}
+
+.contact-section .contact-form button{
+    background-color: #FCAE36;
+}
