@@ -205,7 +205,8 @@ section .home-text p{
     font-weight: 700;
 }
 
-.menu-section .menu-item .rating h3, i{
+.menu-section .menu-item .rating h3, 
+.menu-section .menu-item .rating i{
     color: #523728;
 }
 
