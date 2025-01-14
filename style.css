@@ -221,8 +221,8 @@ section .home-text p{
     color: green;
 }
 
-.menu-section .container .btnMore, i{
-   
+.menu-section .container .btnMore,
+.menu-section .container .btnMore i{
     color: #FFF8E1;
 }
 
